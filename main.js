@@ -6,15 +6,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Qual é a importância da água para a vida na Terra?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "A água é essencial para todos os organismos vivos, pois é fundamental para processos biológicos, como a digestão, o transporte de nutrientes e a regulação da temperatura.",
+                afirmacao: "Correto!"
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: " A água não é importante para a vida na Terra; a maioria dos organismos pode viver sem ela.",
+                afirmacao: "incorreto."
             }
         ]
     },
